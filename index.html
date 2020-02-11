@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h3>Tip Calculator by Gharoro</h3>
+
+    <div class="container">
+        <label for="billAmount">Bill Amount</label>
+        <input type="number" id="bill" name="billAmount" placeholder="Enter your bill amount...">
+        <label for="tip">Please rate our service</label>
+        <select id="tip" name="tippercentage">
+            <option value="30">Outstanding service </option>
+            <option value="20">Good service</option>
+            <option value="10">Okay service</option>
+            <option value="5">Bad service</option>
+            <option value="0">Very poor service</option>
+        </select>
+
+        <label for="people">Number of People Sharing Bill</label>
+        <input type="number" id="people" name="numpeople" placeholder="How many people are sharing the bill?">
+
+
+        <p id="result"></p>
+        <h5 id="no-tip"></h5>
+
+        <input type="submit" id="calculate" value="Calculate">
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
